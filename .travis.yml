@@ -1,7 +1,7 @@
 language: python
 cache: pip
 install:
-- sudo -H pip install -r server/requirements.txt -t server/lib/
+-pip install -r requirements.txt
 script:
 - echo "Starting Server"
 - echo "Pip results"
